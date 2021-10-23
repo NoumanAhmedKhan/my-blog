@@ -1,0 +1,6 @@
+.marjin-right{
+    margin-right: 60px;
+}
+.nav-item:hover .dropdown-menu{
+    display:block!important
+  }
