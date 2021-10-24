@@ -41,6 +41,18 @@ function Home(){
 </Navbar>   
             </header>
             {/* end of header */}
+
+{/* Start of body */}
+
+<section>
+  <div>
+    <h3 className="mt-lg-5 marjin-left">Personality<span>.</span></h3>
+    <img className="marjin-left border-radius mt-lg-5" alt="Personal" src="https://awcdn1.ahmad.works/writing/wp-content/uploads/2015/05/cheerful-loving-couple-bakers-drinking-coffee-PCAVA6B-2.jpg"/>
+    <h5 className="mt-lg-4 marjin-left-2">Communication Skills for better conveying your thoughts.</h5>
+  </div>
+</section>
+
+{/* End of Body */}
         </div>
     )
 }
