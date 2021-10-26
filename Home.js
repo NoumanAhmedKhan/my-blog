@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import personalitylogo2 from './personalitylogo2.png';
 import { Navbar, Nav, NavDropdown, Form, Container, FormControl, Button} from 'react-bootstrap';
 
 function Home(){
@@ -7,9 +8,9 @@ function Home(){
         <div>
             {/* Start of header */}
             <header>
-            <Navbar bg="light" className= "shadow-sm py-3" expand="lg">
+            <Navbar bg="dark" className= "bg-opacity-10 shadow-sm py-3" expand="lg">
   <Container fluid>
-    <Navbar.Brand href="#">Personal Blog</Navbar.Brand>
+    <Navbar.Brand href="#"><img alt="logo" className="logo-width mx-lg-3" src={personalitylogo2}/></Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll" className="flex-lg-grow-0">
       <Nav
